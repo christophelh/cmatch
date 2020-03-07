@@ -634,6 +634,12 @@
   margin-bottom: 32px;
 }
 
+.about-left-content ul {
+  color: #000000;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+}
+
 @media (min-width: 768px) {
   .about-left-content h2 {
     font-size: 40px;
