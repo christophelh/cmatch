@@ -106,6 +106,13 @@
   }
 }
 
+#testimonial{
+  max-height: 350px;
+  min-height: 350px;
+
+}
+
+
 .main-menu .menu-dropdown .single-item a h3 {
   color: #1f1f1f;
   font-size: 16px;
