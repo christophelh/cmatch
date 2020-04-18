@@ -567,6 +567,10 @@
   line-height: 38px;
 }
 
+.client-title i {
+  text-align: center;
+}
+
 .client-brand-wrapper {
   padding-bottom: 45px;
   border-bottom: 1px solid #e5e5e5;
