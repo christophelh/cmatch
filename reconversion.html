@@ -89,12 +89,12 @@
                 <h2>
                   <!-- Prenez le controle de votre carrière professionels. -->
 
-                   <p>Vous êtes en pleine réflexion, vous souhaitez avoir des infos, des conseils, venez discuter avec des professionnel de la reconversion.</p>
+                   <p>Vous êtes en pleine réflexion, vous souhaitez avoir des infos, des conseils, venez discuter avec des professionnels de la reconversion.</p>
 
                 </h2>
                 
                 <div class="hero-btn">
-                  <a href="listing.html" target="_blank" class="btn btn-hero">Je commence ma reconversion</a>
+                  <a href="#reconversion" target="_blank" class="btn btn-hero">Je commence ma reconversion</a>
                 </div>
               </div>
             </div>
@@ -145,10 +145,10 @@
 
 
       <section>
-        <div class="container">
+        <div class="container" id="reconversion">
             <div class="client-title">
-                <h2>Un professionnel est à votre ecoute pour vous aider votre reconversion </h2>
-                <i>Vos informations nous permettrons de vous donner connectez aux meilleurs professionnelle de la reconversion</i>
+                <h2>Un professionnel est à votre écoute pour vous aider dans votre reconversion professionnelle </h2>
+                <p><i>Vos informations nous permettrons de vous connecter aux meilleurs professionnels de la reconversion.</i></p>
               
             <form action="https://submit-form.com/LGen1XL2njaS5BOlBJxO6" target="_self">
 
@@ -160,9 +160,11 @@
   
                 
                   <div class="form-group">
-                      <label for="exampleFormControlInput1">Quel est votre profession actuel ?</label>
+                      <label for="exampleFormControlInput1">Quel est votre profession actuelle ?</label>
                       <input type="text" name="metier" class="form-control" id="exampleFormControlInput1" placeholder="*Agent Immobilier">
                   </div>
+
+                  
                   
                   <div class="form-group">
                       <label for="exampleFormControlSelect1">Nombre d'année d'experience</label>
@@ -187,9 +189,9 @@
                     </div>
 
                   <div class="form-group">
-                      <label for="exampleFormControlSelect1">Avez vous deja éffectuez un bilan de competence ?</label>
+                      <label for="exampleFormControlSelect1">Avez-vous déjà effectué un bilan de compétence ?</label>
                       <select class="form-control" id="exampleFormControlSelect1" name="bilan de competence">
-                        <option>Non, jamais</option>
+                        
                         <option>Non, mais je suis interessé</option>
                         <option>Non, mais je ne suis pas interessé</option>
                         <option>Oui</option>
@@ -197,9 +199,9 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Avez vous deja travailler avec un coach spécialiser dans la reconversion pour vous aider ?</label>
+                        <label for="exampleFormControlSelect1">Avez-vous deja travaillé avec un coach spécialisé dans la reconversion ?</label>
                         <select class="form-control" id="exampleFormControlSelect1" name="HadaCoach">
-                            <option>Non, jamais</option>
+                      
                             <option>Non, mais je suis interessé</option>
                             <option>Non, mais je ne suis pas interessé</option>
                             <option>Oui</option>
@@ -208,29 +210,37 @@
 
 
                       <div class="form-group">
-                          <label for="exampleFormControlSelect1">Avez vous identifier une possible métier pour votre reconversion  ?</label>
+                          <label for="exampleFormControlSelect1">Avez-vous identifié un métier possible pour votre reconversion ?</label>
                           <select class="form-control" id="exampleFormControlSelect1" name="idea of what to do">
                             <option>Oui</option>
                             <option>Non je n'ai aucune idée</option>
                           </select>
                         </div>
 
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1">Si oui lequel ?</label>
+                          <input type="text" name="metier" class="form-control" id="exampleFormControlInput1" placeholder="*Architecte d'interieur">
+                      </div>
+  
+
 
 
                           <div class="form-group">
-                              <label for="exampleFormControlTextarea1">Quel est votre besoin pour reussir votre reconversion ?</label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" name="What do you need to move forward" placeholder="Je suis actuallement à la recherche de conseils sur ...."></textarea>
-                            </div>
+                              <label for="exampleFormControlTextarea1">Quel est votre besoin pour réussir votre reconversion ?</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" name="What do you need to move forward" placeholder="Je suis actuallement à la recherche de ... "></textarea>
+                          </div>
+
+                          
 
 
 
                         <div class="form-group">
                             <label for="exampleInputPassword1">Votre email ?</label>
-                            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="contact@carrierematch.com" name="email">
+                            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="reconversion@carrierematch.com" name="email">
                           </div>
 
-                      <button type="submit" class="btn btn-success">
-                        Discuter avec un pro
+                      <button type="submit" class="btn btn-success" id="btnValidation">
+                        Découvrez nos professionels de la reconversion
                       </button>
 
   
@@ -250,7 +260,7 @@
       <section class="about-section-01">
           <div class="container">
               <div class="client-title">
-                  <h2>Témoignages de candidats </h2>
+                  <h2>Témoignages de candidats en reconversion </h2>
                 </div>
               
                   <div class="row">
@@ -259,8 +269,8 @@
                             <img src="image/testimonial3.jpg" class="card-img-top" id="testimonial" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Pauline, 32 ans</h5>
-                              <span style="background-color: #16EE80"><h6 class="card-title">Marketing Digital</h6></span>
-                              <p class="card-text">Super surprise , des conseils de qualité qui m'ont permis de mieux comprendre comment passer un entretien et le réussir grâce à mon coach.</p>
+                              <span style="background-color: #16EE80"><h6 class="card-title">Reconversion en Marketing Digital</h6></span>
+                              <p class="card-text">Super surprise , des conseils de qualité qui m'ont permis de mieux comprendre comment financer ma reconversion et enfin me lancer dans le grand bain.</p>
                             </div>
                           </div>
                     </div>
@@ -278,9 +288,9 @@
                         <div class="card">
                             <img src="image/testimonial1.jpg"  id="testimonial" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Pierre, 23 ans</h5>
-                                <span style="background-color: #16EE80"><h6 class="card-title">Cherche Stage en Aéronautique</h6></span>
-                                <p class="card-text">Nouveau sur le marché du travail, c'était important d'avoir le retour de personnes d'expériences et contre toute attente cela m’a permis de construire mon réseau dans un secteur fermé.</p>
+                                <h5 class="card-title">Pierre, 27 ans</h5>
+                                <span style="background-color: #16EE80"><h6 class="card-title">Reconversion en logistique</h6></span>
+                                <p class="card-text">C'était important d'avoir le retour de personnes d'expériences qui sont deja passer par une reconversion et cela m’a permis de construire mon réseau dans un secteur fermé.</p>
                             </div>
                           </div>
                     </div>

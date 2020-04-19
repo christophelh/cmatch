@@ -567,7 +567,7 @@
   line-height: 38px;
 }
 
-.client-title i {
+.client-title p {
   text-align: center;
 }
 
@@ -1716,4 +1716,13 @@
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+ /* form  */
+
+#btnValidation{
+  display: block;
+margin: 0 auto;
+
+}
 
